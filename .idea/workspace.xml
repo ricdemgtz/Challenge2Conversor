@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d5856f8-9036-491e-a27c-df1590308764" name="Changes" comment="Creacion de archivo Principal.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6d5856f8-9036-491e-a27c-df1590308764" name="Changes" comment="Creacion de archivo Principal.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +23,12 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="824317de-81c3-4270-abbb-ea9d14bb586b" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ricdemgtz/Challenge2Conversor.git",
+    "accountId": "824317de-81c3-4270-abbb-ea9d14bb586b"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 2
