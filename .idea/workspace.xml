@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d5856f8-9036-491e-a27c-df1590308764" name="Changes" comment="Subida de proyecto completo funcional" />
+    <list default="true" id="6d5856f8-9036-491e-a27c-df1590308764" name="Changes" comment="Subida de proyecto completo funcional">
+      <change beforePath="$PROJECT_DIR$/src/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CurrencyApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CurrencyApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CurrencyInfoFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CurrencyInfoFetcher.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,8 +132,35 @@
       <option name="project" value="LOCAL" />
       <updated>1714686486017</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Subida de proyecto completo funcional">
+      <option name="closed" value="true" />
+      <created>1714686634095</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714686634095</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Subida de proyecto completo funcional">
+      <option name="closed" value="true" />
+      <created>1714686775082</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714686775082</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

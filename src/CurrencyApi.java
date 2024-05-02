@@ -9,11 +9,9 @@ import java.net.http.HttpResponse;
 public class CurrencyApi {
     private static final String API_KEY = Constants.API_KEY;
     private static final String BASE_URL = Constants.BASE_URL;
-    CurrencyData currencyData; // Mantén las tasas de conversión actualizadas
+    CurrencyData currencyData;
 
-    /**
-     * Obtiene las tasas de conversión actualizadas desde la API.
-     */
+
     public void mostrarTasasConversion() {
         String finalUrl = Constants.getFinalUrl();
 
@@ -40,11 +38,6 @@ public class CurrencyApi {
         }
     }
 
-    /**
-     * Obtiene la tasa de conversión para una moneda específica.
-     * @param currency La moneda para la que se desea obtener la tasa de conversión.
-     * @return La tasa de conversión para la moneda especificada.
-     */
     public double getCurrencyRate(String currency) {
         if (currencyData != null && currencyData.conversion_rates != null) {
             switch (currency) {
@@ -64,13 +57,6 @@ public class CurrencyApi {
         }
     }
 
-    /**
-     * Convierte una cantidad de una moneda a otra.
-     * @param amount La cantidad a convertir.
-     * @param fromCurrency La moneda de origen.
-     * @param toCurrency La moneda de destino.
-     * @return La cantidad convertida.
-     */
     public double convertCurrency(double amount, String fromCurrency, String toCurrency) {
         double fromExchangeRate = getCurrencyRate(fromCurrency);
         double toExchangeRate = getCurrencyRate(toCurrency);
@@ -82,7 +68,7 @@ public class CurrencyApi {
         }
     }
 
-    // Clase para representar la estructura de los datos de las divisas
+
     static class CurrencyData {
         String base_code;
         CurrencyRates conversion_rates;
@@ -93,6 +79,6 @@ public class CurrencyApi {
         double USD;
         double EUR;
         double TRY;
-        // Agrega otros campos según la estructura de datos de la respuesta JSON
+
     }
 }

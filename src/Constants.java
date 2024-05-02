@@ -15,7 +15,7 @@ public class Constants {
     public static final String JPY = "JPY";
     public static final String CNY = "CNY";
 
-    // Agrega un campo static para defaultCurrency
+
     private static String defaultCurrency = "MXN"; // O cualquier valor predeterminado que desees
 
     // Método para obtener la URL final

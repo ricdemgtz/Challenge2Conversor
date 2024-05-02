@@ -36,7 +36,6 @@ public class CurrencyInfoFetcher {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         CurrencyData currencyData = gson.fromJson(responseBody, CurrencyData.class);
 
-        // Aquí puedes acceder a los datos de la moneda y utilizarlos como desees
         System.out.println("Base: " + currencyData.base);
         System.out.println("Rates:");
         System.out.println(gson.toJson(currencyData.rates));
@@ -50,8 +49,8 @@ public class CurrencyInfoFetcher {
     static class Rates {
         double USD;
         double EUR;
-        double MXN; // Agregar otros campos según la estructura de datos de la respuesta JSON
+        double MXN;
         double TRY;
-        // Agrega los campos que sean necesarios
+
     }
 }
